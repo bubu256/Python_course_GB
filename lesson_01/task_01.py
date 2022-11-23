@@ -11,6 +11,6 @@ print("Вывод переменных и их типов:\n"
 # запрос переменных у пользователя и вывод на экран
 var_a = int(input('Введите число (int): '))
 var_b = float(input('Введите число (float): '))
-var_c = str(input('Введите строку (str): '))
+var_c = input('Введите строку (str): ')
 print("Вывод переменных и их типов:\n"
       f"{var_a} тип {type(var_a)}, {var_b} тип {type(var_b)}, {var_c} тип {type(var_c)},")
